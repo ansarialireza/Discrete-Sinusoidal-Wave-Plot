@@ -39,8 +39,6 @@ You can customize the frequency of the sinusoidal wave by modifying the `f` vari
 If you want to use a custom plotting class, you can do the following:
 
    ```python
-   from your_module import SinusoidalWavePlotter  # Replace 'your_module' with the actual module name
-
    plotter = SinusoidalWavePlotter(fs=1000000, f=1000, duration=5)
    plotter.plot_wave()
    plotter.save_plot()
