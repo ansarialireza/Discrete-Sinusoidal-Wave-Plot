@@ -50,6 +50,7 @@ For those in search of unparalleled elegance, use a custom plotting class:
 
 - Python
 - Matplotlib
+- Numpy
 
 ## Author
 
