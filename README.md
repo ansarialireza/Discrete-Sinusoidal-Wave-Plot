@@ -1,5 +1,3 @@
-
-
 ```markdown
 # Sinusoidal Wave Plot
 
@@ -53,6 +51,14 @@ Reza Ansari
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-در اینجا لینک به تصویر نیز افزوده شده است تا شما و دیگران بتوانند تصویر را مستقیماً در GitHub مشاهده کنند. لطفاً تغییرات را در فایل README.md ذخیره کرده و سپس commit و push کنید.
+---
+
+**Update:**
+
+I have enhanced the README with a direct link to the generated plot on GitHub for easy viewing. Feel free to explore the [Sinusoidal Wave Plot](sinusoidal_wave_plot.png) directly.
+
+If you have any questions or suggestions, please don't hesitate to reach out.
+
+Happy coding!
+```
