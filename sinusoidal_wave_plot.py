@@ -12,18 +12,27 @@ signal = np.sin(2 * np.pi * f * t)
 
 # Plot the waveform with improved styling
 plt.figure(figsize=(10, 4))  # Set figure size
-plt.plot(t, signal, label='Sinusoidal Wave', color='#2C7BB6', linewidth=2)  # Use a pleasant color
-plt.title('Sinusoidal Wave with a Frequency of 1000 Hz', fontsize=16, color='#333333')  # Darker title color
-plt.xlabel('Time (seconds)', fontsize=12, color='#555555')  # Darker x-axis label color
-plt.ylabel('Amplitude', fontsize=12, color='#555555')  # Darker y-axis label color
-plt.grid(True, linestyle='--', alpha=0.5)  # Lighter grid lines
-plt.legend()
 
-# Save the figure as a PNG file with higher resolution
+# Plot the sinusoidal wave with a smooth gradient color
+plt.plot(t, signal, label='Sinusoidal Wave', color='#4CAF50', linewidth=2, alpha=0.8)
+
+# Enhance title and axis labels with a modern font
+plt.title('Sinusoidal Wave with a Frequency of 1000 Hz', fontsize=18, fontweight='bold', color='#333333')
+plt.xlabel('Time (seconds)', fontsize=14, fontweight='bold', color='#555555')
+plt.ylabel('Amplitude', fontsize=14, fontweight='bold', color='#555555')
+
+# Lighten the grid lines and add a subtle background color
+plt.grid(True, linestyle='--', alpha=0.3)
+plt.axhline(0, color='black',linewidth=0.5)
+plt.axvline(0, color='black',linewidth=0.5)
+plt.minorticks_on()
+plt.grid(which='minor', linestyle='--', alpha=0.1)
+
+# Add a shadow to the legend for better visibility
+plt.legend(shadow=True)
+
+# Save the figure as a PNG file with higher resolution and a transparent background
 plt.savefig('sinusoidal_wave_plot.png', dpi=300, bbox_inches='tight', transparent=True)
 
-# Show the plot with an interactive grid
-plt.grid(True, linestyle='--', alpha=0.5)
-plt.minorticks_on()
-plt.grid(which='minor', linestyle='--', alpha=0.3)
+# Display the plot
 plt.show()
