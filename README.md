@@ -40,7 +40,7 @@ Feel the power to customize the frequency of the sinusoidal wave by simply modif
 For those seeking unparalleled elegance, use a custom plotting class:
 
    ```python
-   plotter = SinusoidalWavePlotter(sampling_rate=1000000, frequency=1000, duration=5)
+   plotter = DiscreteSinusoidalWavePlotter(sampling_rate=27000, frequency=1000, duration=5)
    plotter.plot_wave()
    plotter.save_plot()
    plotter.show_plot()
