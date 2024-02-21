@@ -24,13 +24,28 @@ Make sure you have Python and Matplotlib installed on your machine.
    ```
    This will generate and display the sinusoidal wave plot.
 
-4. Optionally, you can find the plot saved as a PNG file in the same directory. Here is the generated plot:
+4. Optionally, you can find the plot saved as a PNG file in the same directory. Here is the updated generated plot:
+
    ![Sinusoidal Wave Plot](sinusoidal_wave_plot.png)
+
    You can also view the plot directly in GitHub by clicking on the [Plot Image](sinusoidal_wave_plot.png) link.
 
 ## Customization
 
 You can customize the frequency of the sinusoidal wave by modifying the `f` variable in the script.
+
+## Additional Plotting
+
+If you want to use a custom plotting class, you can do the following:
+
+   ```python
+   from your_module import SinusoidalWavePlotter  # Replace 'your_module' with the actual module name
+
+   plotter = SinusoidalWavePlotter(fs=1000000, f=1000, duration=5)
+   plotter.plot_wave()
+   plotter.save_plot()
+   plotter.show_plot()
+   ```
 
 ## Dependencies
 
