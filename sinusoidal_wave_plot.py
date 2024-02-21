@@ -28,7 +28,8 @@ class SinusoidalWavePlotter:
         plt.legend(shadow=True)
 
     def save_plot(self, filename='sinusoidal_wave_plot.png'):
-        plt.savefig(filename, dpi=300, bbox_inches='tight', transparent=True)
+        plt.savefig(filename, dpi=300, bbox_inches='tight', transparent=False, facecolor='white')
+
 
     def show_plot(self):
         plt.show()
