@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define parameters
-fs = 100000  # Increased sampling rate (number of samples per second)
+fs = 1000000  # Increased sampling rate (number of samples per second)
 f = 1000  # Signal frequency (Hz)
 T = 1 / f  # Signal period (seconds)
 t = np.arange(0, 5 * T, 1/fs)  # Discrete time (from 0 to 5 periods)
@@ -12,10 +12,15 @@ signal = np.sin(2 * np.pi * f * t)
 
 # Plot the waveform with improved styling
 plt.figure(figsize=(10, 4))  # Set figure size
-plt.plot(t, signal, label='Sinusoidal Wave', color='green', linewidth=2)
+plt.plot(t, signal, label='Sinusoidal Wave', color='blue', linewidth=2)
 plt.title('Sinusoidal Wave with a Frequency of 1000 Hz', fontsize=16)
 plt.xlabel('Time (seconds)', fontsize=12)
 plt.ylabel('Amplitude', fontsize=12)
 plt.grid(True, linestyle='--', alpha=0.7)
 plt.legend()
+
+# Save the figure as a PNG file
+plt.savefig('sinusoidal_wave_plot.png', dpi=300, bbox_inches='tight')
+
+# Show the plot
 plt.show()
