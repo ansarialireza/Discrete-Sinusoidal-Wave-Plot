@@ -33,7 +33,7 @@ Make sure you have Python and Matplotlib installed on your machine.
 
 ## Customization
 
-Feel empowered to customize the frequency of the discrete sinusoidal wave by simply modifying the `f` variable in the script.
+Feel empowered to customize the frequency of the discrete sinusoidal wave by simply modifying the `frequency` variable in the script.
 
 ## Additional Plotting Elegance
 
