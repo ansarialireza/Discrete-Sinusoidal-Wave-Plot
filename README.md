@@ -10,7 +10,7 @@ Make sure you have Python and Matplotlib installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ansarialireza/sinusoidal-wave-plot.git
+   git clone https://github.com/ansarialireza/Discrete-Sinusoidal-Wave-Plot
    ```
 
 2. **Navigate to the project directory:**
@@ -20,11 +20,11 @@ Make sure you have Python and Matplotlib installed on your machine.
 
 3. **Run the Python script:**
    ```bash
-   python sinusoidal_wave_plot.py
+   python discrete_sinusoidal_wave_plot.py
    ```
    Witness the magic as the script generates and displays the captivating discrete sinusoidal wave plot.
 
-4. **Optional - Admire the Art:**
+4. **Admire the Art:**
    Explore the saved plot as a PNG file in the same directory. Behold the beauty:
 
    ![Discrete Sinusoidal Wave Plot](discrete_sinusoidal_wave_plot.png)
