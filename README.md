@@ -51,14 +51,12 @@ Reza Ansari
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
 
----
+پس از اعمال این تغییرات، فایل README.md را ذخیره کنید، سپس از دستورات git زیر برای commit و push استفاده کنید:
 
-**Update:**
-
-I have enhanced the README with a direct link to the generated plot on GitHub for easy viewing. Feel free to explore the [Sinusoidal Wave Plot](sinusoidal_wave_plot.png) directly.
-
-If you have any questions or suggestions, please don't hesitate to reach out.
-
-Happy coding!
+```bash
+git add README.md
+git commit -m "Update README with plot image link"
+git push origin main
 ```
