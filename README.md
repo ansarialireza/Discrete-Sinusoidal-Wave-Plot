@@ -27,9 +27,9 @@ Ensure you have Python and Matplotlib installed on your machine.
 4. **Optional - Admire the Art:**
    Discover the saved plot as a PNG file in the same directory. Behold the beauty:
 
-   ![Sinusoidal Wave Plot](sinusoidal_wave_plot.png)
+   ![Sinusoidal Wave Plot](discrete_sinusoidal_wave_plot.png)
 
-   For a closer look, gaze upon the plot directly in GitHub by clicking on the 📈 [Plot Image](sinusoidal_wave_plot.png) link.
+   For a closer look, gaze upon the plot directly in GitHub by clicking on the 📈 [Plot Image](discrete_sinusoidal_wave_plot.png) link.
 
 ## Customization
 
